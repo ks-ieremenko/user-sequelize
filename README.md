@@ -24,5 +24,5 @@
 	  * `localhost:3000/role` (GET) - get all roles
 	  * `localhost:3000/role/post` (POST) - create a role
 		  * Body format: `{ name: 'Admin', permissionUuids: ['someid1', 'someid2']}`
-	  * `localhost:3000/role/patch` (PATCH) - assign permissions to role
+	  * `localhost:3000/role/patch` (PATCH) - add new permission to role
 		  * Body format: `{ permissionUuid: 'someid', roleUuid: 'someid' }`
