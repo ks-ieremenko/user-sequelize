@@ -1,5 +1,7 @@
 # user-sequelize
 
+*! Can be easily rewritten to JS using sequelize package instead of sequelize-typescript.*
+
 * Install dependencies with `npm install`
 * Run the express server with `npm start`
 * Open your browser in `localhost:3000` and try the example REST endpoints.
