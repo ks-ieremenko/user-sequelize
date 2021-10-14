@@ -27,7 +27,7 @@ class User extends Model<UserAttributes, UserCreationAttributes> {
   @AllowNull(false)
   @NotEmpty
   @Column
-  name!: string;
+  firstname!: string;
 
   @AllowNull(false)
   @NotEmpty
