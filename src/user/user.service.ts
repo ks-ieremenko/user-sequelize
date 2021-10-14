@@ -15,6 +15,8 @@ export const getUser = async (uuid: string): Promise<User> => {
     if (!user) {
         throw new Error('No users were found');
         console.log('hello')
+        console.log('hello2')
+        console.log('hello3')
     }
     return user;
 };
