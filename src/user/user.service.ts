@@ -20,6 +20,7 @@ export const getUser = async (uuid: string): Promise<User> => {
 export const isUserAdmin = async (user: User): Promise<boolean> => {
     if (!user || user.role.name !== 'Admin') {
         // throw new Error('No admin');
+        console.log('ggg')
         return false;
     }
     return true;
