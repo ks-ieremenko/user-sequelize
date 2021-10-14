@@ -14,13 +14,14 @@ export const getUser = async (uuid: string): Promise<User> => {
     const user = await User.findByPk(uuid, { include: Role });
     if (!user) {
         throw new Error('No users were found');
+        console.log('hello')
     }
     return user;
 };
 export const isUserAdmin = async (user: User): Promise<boolean> => {
     if (!user || user.role.name !== 'Admin') {
-        // throw new Error('No admin');
-        console.log('ggg')
+         throw new Error('No admin');
+        // console.log('ggg')
         return false;
     }
     return true;
