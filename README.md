@@ -1,4 +1,6 @@
-# user-sequelize
+# User app
+
+The goal of a project is to create users with roles, that include special permissions.
 
 * Install dependencies with `npm install`
 * Run the express server with `npm start`
@@ -26,3 +28,6 @@
 		  * Body format: `{ name: 'Admin', permissionUuids: ['someid1', 'someid2']}`
 	  * `localhost:3000/role/patch` (PATCH) - add new permission to role
 		  * Body format: `{ permissionUuid: 'someid', roleUuid: 'someid' }`
+
+---
+Used technologies: Express, mySQL+sequelize
