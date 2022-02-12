@@ -2,6 +2,10 @@
 
 The goal of a project is to create users with roles, that include special permissions.
 
+**Used technologies:** Express, MySQL+Sequelize
+
+---
+
 * Install dependencies with `npm install`
 * Run the express server with `npm start`
 * Open your browser in `localhost:3000` and try the example REST endpoints.
@@ -29,5 +33,3 @@ The goal of a project is to create users with roles, that include special permis
 	  * `localhost:3000/role/patch` (PATCH) - add new permission to role
 		  * Body format: `{ permissionUuid: 'someid', roleUuid: 'someid' }`
 
----
-Used technologies: Express, mySQL+sequelize
